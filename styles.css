@@ -37,7 +37,58 @@ body{
 }
 
 .hero {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
-    height: 300px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 90px 90px 90px;
+    gap: 60px;  
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.hero-text h1{
+    /*border: 2px solid rebeccapurple;*/
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: left;
+    max-width: 400px;
+    margin-bottom: 0;
+    flex-basis: 100px;
+}
+
+.hero-text p{
+    /*border: 2px solid rebeccapurple;*/
+    color: white;
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-text button{
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+.hero-text button:hover{
+    box-shadow: 0 3px 5px 0 rgba(44, 44, 44, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #1e57b4;
+}
+
+.hero-image img{
+    display: flex;
+    align-items: center;
+    height: 275px;
+    border-radius: 10px;
 }
